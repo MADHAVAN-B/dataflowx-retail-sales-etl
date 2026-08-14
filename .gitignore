@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment secrets
+.env
+
+# Generated pipeline output
+data/processed/*.csv
+
+# Airflow
+logs/
+airflow.cfg
+webserver_config.py
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
