@@ -289,3 +289,25 @@ Possible future improvements include:
 - Adding CI/CD with GitHub Actions.
 - Adding more unit and integration tests.
 - Deploying the pipeline to a cloud platform.
+
+## Pipeline Evidence
+
+### Airflow DAG Success
+
+![Airflow DAG success](docs/screenshots/01-airflow-success.png)
+
+### PostgreSQL Tables
+
+![PostgreSQL tables](docs/screenshots/02-postgresql-tables.jpg)
+
+### Cleaned Row Count
+
+![Cleaned row count](docs/screenshots/03-cleaned-row-count.jpg)
+
+### Daily Revenue Report
+
+![Daily revenue report](docs/screenshots/04-daily-revenue-report.jpg)
+
+### Project Structure
+
+![Project structure](docs/screenshots/05-project-structure.jpg)
