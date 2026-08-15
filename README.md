@@ -294,20 +294,28 @@ Possible future improvements include:
 
 ### Airflow DAG Success
 
-![Airflow DAG success](docs/screenshots/01-airflow-success.png)
+![Airflow DAG success](./docs/screenshots/01-airflow-success.jpg)
 
 ### PostgreSQL Tables
 
-![PostgreSQL tables](docs/screenshots/02-postgresql-tables.jpg)
+![PostgreSQL tables](./docs/screenshots/02-postgresql-tables.jpg)
 
 ### Cleaned Row Count
 
-![Cleaned row count](docs/screenshots/03-cleaned-row-count.jpg)
+![Cleaned row count](./docs/screenshots/03-cleaned-row-count.jpg)
 
 ### Daily Revenue Report
 
-![Daily revenue report](docs/screenshots/04-daily-revenue-report.jpg)
+![Daily revenue report](./docs/screenshots/04-daily-revenue-report.jpg)
 
 ### Project Structure
 
-![Project structure](docs/screenshots/05-project-structure.jpg)
+![Project structure](./docs/screenshots/05-project-structure.jpg)
+
+### Cleaned Sales Data
+
+![Cleaned sales data](./docs/screenshots/06-cleaned-sales-data.jpg)
+
+### README Preview
+
+![README preview](./docs/screenshots/07-readme-preview.jpg)
