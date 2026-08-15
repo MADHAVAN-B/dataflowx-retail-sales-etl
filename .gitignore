@@ -19,3 +19,5 @@ webserver_config.py
 .vscode/
 .idea/
 .DS_Store
+project_structure.txt
+project_structure_clean.txt

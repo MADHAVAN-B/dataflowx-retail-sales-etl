@@ -1,0 +1,20 @@
+services:
+  project-db:
+    image: postgres:16
+    container_name: dataflowx-project-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: dataflowx_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - project_data:/var/lib/postgresql/data
+
+volumes:
+  - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
+  - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
+  - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
+  - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+  - ${AIRFLOW_PROJ_DIR:-.}/scripts:/opt/airflow/scripts
+  - ${AIRFLOW_PROJ_DIR:-.}/data:/opt/airflow/data
