@@ -308,14 +308,10 @@ Possible future improvements include:
 
 ![Daily revenue report](./docs/screenshots/04-daily-revenue-report.png)
 
-### Project Structure
-
-![Project structure](./docs/screenshots/05-project-structure.png)
-
 ### Cleaned Sales Data
 
-![Cleaned sales data](./docs/screenshots/06-cleaned-sales-data.png)
+![Cleaned sales data](./docs/screenshots/05-cleaned-sales-data.png)
 
 ### README Preview
 
-![README preview](./docs/screenshots/07-readme-preview.png)
+![README preview](./docs/screenshots/06-readme-preview.png)
